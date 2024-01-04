@@ -245,10 +245,12 @@ report_mouse_t pointing_device_task_user(report_mouse_t mouse_report)
 #define L2_BSPC LT(2, KC_BSPC)
 #define L3_LNG1 LT(3, KC_LNG1)
 #define L3_VOLD LT(3,KC_VOLD)
+
 // モッドタップ関連
 // 単独押し→（）内のキー, 組み合わせ押し→モディファイヤキー
 #define CTL_X CTL_T(KC_X)
 #define SFT_SCLN SFT_T(KC_SCLN)
+
 // その他
 #define GUI_S SGUI(KC_S)
 
